@@ -12,4 +12,8 @@ The repository includes:
 
 ![image](https://github.com/user-attachments/assets/c69a54f3-146d-484f-a2f3-c10317f26a5d)
 
+![image](https://github.com/user-attachments/assets/aa399920-2a86-4d98-9cf5-3611bb2e24f0)
+
+![image](https://github.com/user-attachments/assets/a9c94cee-19cf-411c-b634-9e9b8c11486a)
+
 
