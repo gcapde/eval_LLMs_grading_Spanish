@@ -8,5 +8,4 @@ The repository includes:
 
 * The different prompts tested with several LLMs ([prompts.txt](https://github.com/gcapde/eval_LLMs_grading_Spanish/blob/main/prompts.txt)).
 * Configuration file to run the tests with promptfoo ([promptfooconfig.yaml](https://github.com/gcapde/eval_LLMs_grading_Spanish/blob/main/promptfooconfig.yaml)).
-* JSON files with the experiments results ().
-* Python code used to analyze the experiments results (JSON files from promptfoo) and generate the graphs included in the paper (analysis_results.py and Accuracy.py).
+* Python code used to analyze the experiments results (JSON files from promptfoo) and generate the graphs included in the paper ([analysis_results.py](https://github.com/gcapde/eval_LLMs_grading_Spanish/blob/main/analysis_results.py), analysis_results_variante.py and Accuracy.py).
