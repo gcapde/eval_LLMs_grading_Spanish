@@ -1,0 +1,58 @@
+Debes evaluar una respuesta a la pregunta "{{pregunta}}". La escala de evaluación tiene tres niveles: EXCELENTE, ACEPTABLE, INCORRECTA. La respuesta a la pregunta "{{pregunta}}" que ti
+enes que evaluar es: "{{respuesta}}" Te pido que califiques la respuesta. La salida debe ser "Calificación: X", siendo X una de las opciones de calificación indicadas anteriormente.
+
+---
+
+Eres docente de educación primaria y debes evaluar una respuesta a la pregunta "{{pregunta}}" realizada a escolares entre 8 y 10 años de edad. Deberás evaluar la respuesta, teniendo en
+ cuenta su completitud, nivel de detalle y justificación, y si está adecuada a la consigna planteada. La escala de evaluación tiene tres niveles: EXCELENTE, ACEPTABLE, INCORRECTA. EXCE
+LENTE corresponde a una respuesta muy completa, bien justificada y con detalles relevantes. ACEPTABLE corresponde a respuestas que estén correctas, es decir que se ajustan a la pregunt
+a, pero no dan mucha justificación ni detalle. INCORRECTA corresponde a respuestas incorrectas, que no cumplen con la consigna y están equivocadas. La respuesta a la pregunta "{{pregun
+ta}}" que tienes que evaluar es: "{{respuesta}}" Te pido que califiques la respuesta. La salida debe ser "Calificación: X", siendo X una de las opciones de calificación indicadas anter
+iormente.
+
+---
+
+Debes evaluar una respuesta a la pregunta "{{pregunta}}". La escala de evaluación tiene tres niveles: EXCELENTE, ACEPTABLE, INCORRECTA. La respuesta a la pregunta "{{pregunta}}" que ti
+enes que evaluar es: "{{respuesta}}" Te pido que des una devolución y califiques la respuesta. La salida debe ser "Devolución: texto_devolucion. Calificación: X", siendo texto_devoluci
+on los comentarios sobre la respuesta y X una de las opciones de calificación indicadas anteriormente.
+
+---
+
+Eres docente de educación primaria y debes evaluar una respuesta a la pregunta "{{pregunta}}" realizada a escolares entre 8 y 10 años de edad. Deberás evaluar la respuesta, teniendo en
+ cuenta su completitud, nivel de detalle y justificación, y si está adecuada a la consigna planteada. La escala de evaluación tiene tres niveles: EXCELENTE, ACEPTABLE, INCORRECTA. EXCE
+LENTE corresponde a una respuesta muy completa, bien justificada y con detalles relevantes. ACEPTABLE corresponde a respuestas que estén correctas, es decir que se ajustan a la pregunt
+a, pero no dan mucha justificación ni detalle. INCORRECTA corresponde a respuestas incorrectas, que no cumplen con la consigna y están equivocadas. La respuesta a la pregunta "{{pregun
+ta}}" que tienes que evaluar es: "{{respuesta}}" Te pido que des una devolución y califiques la respuesta. La salida debe ser "Devolución: texto_devolucion. Calificación: X", siendo te
+xto_devolucion los comentarios sobre la respuesta y X una de las opciones de calificación indicadas anteriormente.
+
+---
+
+Debes evaluar una respuesta de escolares a una pregunta abierta. La escala de evaluación tiene tres niveles: EXCELENTE, ACEPTABLE, INCORRECTA.
+Algunos ejemplos de referencia son los siguientes:
+
+Pregunta: ¿En qué te pareces a tu hermano?
+Respuesta: Me parezco a mi hermano en que ambos disfrutamos mucho los videojuegos; los jugamos todos los días juntos y compartimos nuestros favoritos.
+Calificación: EXCELENTE
+
+Pregunta: ¿En qué te pareces a tu hermano?
+Respuesta: A ambos nos gustan los videojuegos.
+Calificación: ACEPTABLE
+
+Pregunta: ¿En qué te pareces a tu hermano?
+Respuesta: Él me ayuda mucho con los estudios antes de jugar.
+Calificación: INCORRECTA
+
+Pregunta: ¿Cuál es tu festividad preferida?
+Respuesta: Mi festividad preferida es la navidad, me gusta mucho compartir con mi familia y todos los regalos que me dan.
+Calificación: EXCELENTE
+
+Pregunta: ¿Cuál es tu festividad preferida?
+Respuesta: Mi festividad preferida es la navidad.
+Calificación: ACEPTABLE
+
+Pregunta: ¿Cuál es tu festividad preferida?
+Respuesta: Me gusta mucho hacer deporte, practico natación todas las mañanas.
+Calificación: INCORRECTA
+
+En este caso debes evaluar una respuesta a la pregunta "{{pregunta}}". La respuesta que tienes que evaluar es: "{{respuesta}}"
+Te pido que califiques la respuesta. La salida debe ser "Calificación: X", siendo X una de las opciones de calificación indicadas anteriormente.
