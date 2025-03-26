@@ -1,0 +1,84 @@
+#description: "Modelos chicos"
+#description: "Modelos medianos"
+#description: "Modelos medianos - Llama3.1"
+#description: "Llama3.1 - Robustez"
+#description: "Llama3.1 - Variante calificaciones"
+#description: "Modelos grandes - Llama3.3"
+description: "Llama3.3 - Variante calificaciones"
+#description: "Llama3.3 - Robustez"
+#description: "Modelos grandes - Qwen2.5"
+#description: "Qwen2.5 - Variante calificaciones"
+#description: "Qwen2.5 - Robustez"
+#description: "Modelos chicos - Variante calificaciones"
+#description: "Modelos medianos - Variante calificaciones"
+#description: "Modelos grandes - Variante calificaciones"
+#description: "Modelos chicos - Robustez"
+#description: "Modelos medianos - Robustez"
+#description: "Modelos grandes - Robustez"
+#description: "OpenAI - CoT"
+#description: "OpenAI - Robustez"
+#description: "OpenAI - Robustez fewshots"
+#description: "OpenAI - Corregido"
+#description: "OpenAI - Variante calificaciones"
+#description: "OpenAI - Few shots variante calificaciones"
+#description: "OpenAI - Few shots"
+#description: "Nemotron - Few Shots"
+#description: "Nemotron - Referencia"
+
+providers:
+
+#  [openai:chat:gpt-4o-mini-2024-07-18, openai:chat:gpt-4o-2024-08-06] # tengo que correr de nuevo con las versiones corregidas de los prompts
+#  [ollama:chat:llama3.2:1b, ollama:chat:gemma2:2b, ollama:chat:llama3.2] # modelos chicos (1B, 2B, 3B)
+#  [ollama:chat:phi3.5, ollama:chat:llama3.2, ollama:chat:gemma2:2b] # modelos chicos (3.8B, 3B, 2B)
+#  [ollama:chat:qwen2.5, ollama:chat:llama3.1, ollama:chat:gemma2] # modelos medianos (7B, 8B, 9B)
+
+#  [ollama:chat:llama3.1] # 8B
+
+# Modelos grandes
+#  [ollama:chat:llama3.1:70b] # 70B
+#  [ollama:chat:qwen2:72b] # 72B
+#  [ollama:chat:qwen2.5:72b] # 72B
+  [ollama:chat:llama3.3] # 70B
+
+# [ollama:chat:nemotron] # --> prueba6
+# [ollama:chat:qwen2.5:72b] # --> prueba5
+
+# [ollama:chat:qwen2.5, ollama:chat:qwen2.5:72b] # con estos nunca corrimos --> se necesita para tener también la referencia
+# [openai:chat:gpt-4o-mini]
+
+#  [ollama:chat:gemma2, ollama:chat:gemma2:27b, ollama:chat:qwen2.5] # --> prueba4
+#  [ollama:chat:llama3.1:70b, ollama:chat:qwen2:72b] # los grandes se corren aparte --> prueba3
+#  [ollama:chat:phi3.5, ollama:chat:llama3.2, ollama:chat:gemma2:2b] # estos son los chicos --> prueba2
+#  [ollama:chat:llama3.1, ollama:chat:qwen2, ollama:chat:phi3:14b, openai:chat:gpt-4o-mini, openai:chat:gpt-4o] # prueba1
+
+# los gemma habian andado bien, en ~80% 
+
+#  [openai:chat:gpt-4-turbo-2024-04-09, openai:gpt-3.5-turbo-0125] # estos no vale la pena correrlos
+#  [ollama:chat:llama3.1:70b, ollama:chat:qwen2:72b] # los grandes se corren aparte
+# [ollama:chat:qwen2.5, ollama:chat:qwen2.5:72b] # con estos nunca corrimos
+
+# ollama:chat:llama3.1 # este no habia dado bien
+# [ollama:chat:gemma2, ollama:chat:gemma2:27b] # estos habian andado bien, en ~80%
+# [ollama:chat:llama3.2, ollama:chat:llama3.2:1b]
+
+#prompts: prompt_fewshot_corregido_variante.txt
+#prompts: prompt_all_corregidos_variante.txt
+prompts: prompt_basicos_corregidos_variante.txt
+#prompts: prompt_fewshot_corregido.txt
+#prompts: prompt_all_corregidos.txt
+#prompts: prompt_all.txt
+#prompts: prompt_v4.txt
+#prompts: prompt_v5.txt
+#prompts: prompt_CoT.txt
+#prompts: prompt_FewShots2.txt
+#prompts: prompt_FewShots3.txt
+#prompts: prompt_FewShots.txt
+#prompts: prompt_fewshots.txt
+#prompts: prompt_v2.txt
+
+#tests: dataset_robustez.csv
+#tests: dataset_variante_output.csv
+tests: dataset_variante_calificaciones.csv
+#tests: dataset_URUCON_asserts.csv
+# tests: fine_tuning_test_dataset.csv
+# tests: test_small.csv
